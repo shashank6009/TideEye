@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TideEye</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <div class="logo">TideEye</div>
+        <nav class="nav">
+          <a href="#insights">Insights</a>
+          <a href="#features">Features</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="button button--ghost" href="#demo">Request demo</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="insights">
+        <div class="hero__content">
+          <img
+            src="images/hometext.png"
+            alt="TideEye overlay text"
+            class="hero__mark"
+          />
+        </div>
+      </section>
+
+      <section class="tiles" id="features">
+        <div class="container">
+          <article class="tile">
+            <h3>Adaptive alerts</h3>
+            <p>AI-powered thresholds tune themselves to each shoreline.</p>
+          </article>
+          <article class="tile">
+            <h3>Unified streams</h3>
+            <p>Ingest buoy, satellite, and radar data with zero friction.</p>
+          </article>
+          <article class="tile">
+            <h3>Coastal twins</h3>
+            <p>Simulate erosion and flooding scenarios in minutes.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <div>
+            <h2>Ready to see TideEye live?</h2>
+            <p>
+              Share your coastline focus and we will tailor a walkthrough with
+              the data streams that matter most to you.
+            </p>
+          </div>
+          <a href="mailto:hello@tideeye.io" class="button button--primary"
+            >Book a session</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <span>© <span id="year"></span> TideEye</span>
+        <span>Monitoring the motion of every tide.</span>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
+
