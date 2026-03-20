@@ -2,7 +2,7 @@
 
 ### AI-Driven Coastal Waste Detection, Segmentation, and Escalation Framework
 
-### Developed by **N. S. Shashank**
+### Developed by **N. S. Shashank** and **Sarvesh Ragav B**
 
 Built for the **Yukti APF Fellowship, AICTE**
 
